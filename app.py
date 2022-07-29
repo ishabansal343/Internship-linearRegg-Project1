@@ -16,7 +16,7 @@ model = pickle.load(open('linearregression-1.pkl','rb'))
 
 
 @app.route('/')
-def home()
+def home():
   
     return render_template("index.html")
   
